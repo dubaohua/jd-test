@@ -15,3 +15,7 @@ u.password_confirmation = "123456"
 
 u.is_admin = true
 u.save
+
+
+Product.create!([title: "Aeron",price: 8000,quantity: 19])
+Product.create!([title: "Macbook pro",price: 9000,quantity: 20])
